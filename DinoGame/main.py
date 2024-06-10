@@ -163,6 +163,7 @@ class DinoGame():
                 height = self.cactus_size[choise*2+1]
                 cactus.return_cactus(radius, height, width, img)   
         
+        
     def find_radius(self):
         maximum = max([self.cactus_arr[0].x, self.cactus_arr[1].x, self.cactus_arr[2].x])
         if maximum < self.settings.screen_width:
